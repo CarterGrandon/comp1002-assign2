@@ -100,3 +100,23 @@ section > figure > img {
     margin: 11px;
     margin-top: 19px;
 }
+
+form {
+    margin: 10px;
+    margin-left: 20px;
+    justify-content: right;
+}
+
+form > fieldset > legend {
+    margin: 10px;
+    font-size: 16pt;
+    color: crimson;
+}
+
+#message-section {
+    margin-top: 20px;
+}
+
+form > fieldset > div {
+    margin: 7px;
+}
