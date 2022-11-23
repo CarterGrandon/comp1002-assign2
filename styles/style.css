@@ -44,11 +44,27 @@ header > h1 {
     font-size: 32pt;
 }
 
+#grandon {
+    background: url(../kalen-emsley-Bkci_8qcdvQ-unsplash.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
 div > figure, section > figure {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 7px;
+}
+
+img {
+    border-radius: 5px;
 }
 
 div > figure > img {
@@ -103,8 +119,15 @@ section > figure > img {
 
 form {
     margin: 10px;
-    margin-left: 20px;
-    justify-content: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 form > fieldset > legend {
@@ -120,3 +143,5 @@ form > fieldset > legend {
 form > fieldset > div {
     margin: 7px;
 }
+
+/* there's one weirdo "Message" text in contact.html I can't quite get centered for some reason so I'll just leave it for now */
