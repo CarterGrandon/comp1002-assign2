@@ -1,0 +1,92 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    color: crimson;
+}
+
+header > nav > ul {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+header > nav > ul > li {
+    margin: 10%;
+}
+
+header > nav > ul > li > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+header > nav > ul > li > a:hover {
+    color:crimson;
+}
+
+header > h1 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 32pt;
+}
+
+div > figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7px;
+}
+
+div > figure > img {
+    height: 460px;
+}
+
+sub {
+    font-style: italic;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section > h2 {
+    margin: 13px;
+    font-size: 26pt;
+}
+
+section > p {
+    width: 75%;
+    font-size: 14pt;
+}
+
+section > a {
+    margin: 10px;
+    color: green;
+    font-size: 15pt;
+}
+
+section > a:hover {
+    color: crimson;
+    font-weight: bold;
+}
+
+footer {
+    color: crimson;
+    margin: 9px;
+}
